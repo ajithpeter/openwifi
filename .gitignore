@@ -1,0 +1,46 @@
+# External repositories (should not be committed)
+openwifi-hw/
+arm-trusted-firmware/
+
+# Build artifacts
+*.o
+*.ko
+*.mod.c
+*.a
+*.so
+*.so.*
+*.elf
+*.bin
+*.bit
+*.xsa
+*.hdf
+
+# Vivado/Vitis generated files
+vivado*.log
+vivado*.jou
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+*.xpr.bak
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
